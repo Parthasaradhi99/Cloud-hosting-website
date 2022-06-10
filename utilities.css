@@ -1,0 +1,135 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    /* overflow: auto; */
+    padding: 0 40px;
+  }
+  
+  .card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 5px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btn-outline{
+    border: 1px solid white;
+    
+}
+
+.text-center{
+  text-align:center;
+}
+
+/*top-margin*/
+.my-1{
+  margin:  1rem 0;
+}
+.my-2{
+  margin:  1.5rem 0;
+}
+.my-3{
+  margin:  2rem 0;
+}
+.my-4{
+  margin:  2.5rem 0;
+}
+.my-5{
+  margin:  3rem 0;
+}
+
+/*margin-all-around*/
+.m-1{
+  margin: 1rem;
+}
+.m-2{
+  margin: 1.5rem;
+}
+.m-3{
+  margin: 2rem;
+}
+.m-4{
+  margin: 2.5rem;
+}
+.m-5{
+  margin: 3rem;
+}
+/*padding-all-around*/
+.p-1{
+  margin: 1rem;
+}
+.p-2{
+  margin: 1.5rem;
+}
+.p-3{
+  margin: 2rem;
+}
+.p-4{
+  margin: 2.5rem;
+}
+.p-5{
+  margin: 3rem;
+}
+/* Font sizes and colred buttons */
+
+.text-secondary{
+  font-size: 15px;
+}
+.sm{
+  font-size: 1rem;
+}
+.md{
+  font-size: 2rem;
+}
+.lg{
+  font-size: 3rem;
+}
+.xl{
+  font-size: 4rem;
+}
+.bg-primary,.btn-primary{
+  background-color: var(--bg-primary);
+}
+.bg-dark,.btn-dark{
+  background-color: var(--btn-dark);
+}
+.lead{
+  font-size: 1.5rem;
+  color: white;
+}
+.white{
+  color :white
+}
